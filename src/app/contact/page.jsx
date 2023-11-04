@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const page = () => {
   return (
     <div className="pt-10 mx-auto pl-[300px]">
@@ -10,7 +12,7 @@ const page = () => {
         <div class="xl:mx-auto xl:container relative">
           <div class="flex flex-wrap xl:mx-auto xl:container">
             <div class="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0">
-              <img
+              <Image
                 src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
                 class="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden"
                 alt="map"
